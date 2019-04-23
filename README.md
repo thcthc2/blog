@@ -159,5 +159,3 @@ dbblog-core -> dbblog-auth -> dbblog-manage -> dbblog-portal -> dbblog-search
 -->  到现在的前后端分离博客 [博客3](https://github.com/llldddbbb/dbblog) 
 
 如果是初学Java的朋友也可以跟着流程借鉴借鉴这些代码，试着实现一个自己的博客，相信能对你的成长有所帮助！
-
-最后的最后，我的github地址是[https://github.com/llldddbbb/dbblog](https://github.com/llldddbbb/dbblog)，开源不易，一定要给我==Star==哦！！

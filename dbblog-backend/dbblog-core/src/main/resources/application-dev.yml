@@ -3,9 +3,9 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
     driverClassName: com.mysql.jdbc.Driver
     druid:
-      url: jdbc:mysql://localhost:3306/dbblog?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false
+      url: jdbc:mysql://192.168.30.128:3306/dbblog?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false
       username: root
-      password: 123456
+      password: Root1234!
       initial-size: 10
       max-active: 100
       min-idle: 10
@@ -33,8 +33,9 @@ spring:
             multi-statement-allow: true
   # redis 配置
   redis:
-    host: localhost
+    host: 192.168.30.128
     port: 6379
+    password: Root1234!
     timeout: 6s #连接池超时时长
     lettuce:
       pool:
@@ -46,13 +47,13 @@ spring:
   data:
     elasticsearch:
       cluster-name: elasticsearch
-      cluster-nodes: 127.0.0.1:9300
+      cluster-nodes: 192.168.30.128:9300
   # rabbitMQ配置
   rabbitmq:
-    host: 127.0.0.1
+    host: 192.168.30.128
     port: 5672
-    username: guest
-    password: guest
+    username: root
+    password: Root1234!
 #mybatis-plus
 mybatis-plus:
   global-config:
